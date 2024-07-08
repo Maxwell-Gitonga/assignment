@@ -26,7 +26,7 @@ a {
 a:hover {
     background-color: #333;
     color: #fff;
-
+}
 nav ul {
     list-style: none;
     margin: 0;
@@ -82,7 +82,7 @@ nav a:hover {
 }
 
 .login button[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #ee20c1;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -90,6 +90,7 @@ nav a:hover {
     cursor: pointer;
 }
 
-.login button[type="submit"]:hover {
-    background-color: #3e8e41;
+.login button:hover {
+    background-color: #333;
+    color: #fff;
 }
