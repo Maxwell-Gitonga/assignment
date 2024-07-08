@@ -1,10 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    background-image: url('./images/Nissan_Skyline.jpeg');
+    background-size:cover;
+    background-position:center;
 }
 
 header {
-    background-color: #333;
+    background-color: #48357e;
     padding: 20px 0;
 }
 header:hover{
@@ -23,7 +26,7 @@ a {
 a:hover {
     background-color: #333;
     color: #fff;
-    
+
 nav ul {
     list-style: none;
     margin: 0;
