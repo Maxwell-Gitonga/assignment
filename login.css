@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #48357e;
+    background-color: black;
     padding: 20px 0;
 }
 header:hover{
@@ -16,7 +16,7 @@ header:hover{
 
 a {
     text-decoration: none;
-    color: #5220c8;
+    color: black;
     padding: 10px;
     margin-right: 10px;
     border-radius: 5px;
