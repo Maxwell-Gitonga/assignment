@@ -4,7 +4,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #b01818;
-    background-image: url('./images/Mazda.jpeg');
+    background-image: url('./images/Nissan.jpeg');
+    background-size:cover;
+    background-position:center;
 }
 
 a {

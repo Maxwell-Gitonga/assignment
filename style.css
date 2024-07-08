@@ -1,71 +1,182 @@
-/* styles.css */
+/* Resetting default browser styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('./images/Supercar.jpeg');
+    background-color: #f7f7f7;
+    background-image: url('./images/Nissan.jpeg');
+    background-position:right;
     background-size: cover;
-    background-position: center;
+    color: #333;
 }
 
+/* Header styles */
 header {
     background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 20px 0;
+}
+header:hover{
+    background-color:red;
 }
 
 nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
+    list-style-type: none;
 }
 
-nav li {
+nav ul li {
+    display: inline;
     margin-right: 20px;
 }
 
-nav a {
-    color: #fff;
+nav ul li a {
     text-decoration: none;
+    color: #fff;
+    font-weight: bold;
 }
 
+/* Hero section styles */
 .hero {
-    
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f2f2f2;
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
 }
 
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #555;
+}
+
+/* Search section styles */
 .search {
-    padding: 20px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.search h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
 }
 
 .search form {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .search label {
     margin-right: 10px;
 }
 
-.search select {
+.search select, .search button {
     padding: 10px;
-    border: none;
-    border-radius: 5px;
+    font-size: 16px;
 }
 
-.search button[type="submit"] {
+.search button {
     background-color: #333;
-    color: #fff;}
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search button:hover {
+    background-color: #555;
+}
+
+/* Car listings section styles */
+.car-listings {
+    padding: 50px 0;
+}
+
+.car-listings h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.car-listings ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.car-listings li {
+    text-align: center;
+}
+
+.car-listings li img {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.car-listings li h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.car-listings li p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.car-listings li button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.car-listings li button:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
