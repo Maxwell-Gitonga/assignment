@@ -11,7 +11,7 @@
 
 <body>
     <header>
-    <a href="index.html">Home</a>
+    <a href="index.php">Home</a>
     <a href="aboutus.html">About Us</a>
     <a href="Contacts.html">Contact Us</a>
     <a href="login.php">Login</a>
