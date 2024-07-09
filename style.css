@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
-    background-image: url('./images/Nissan.jpeg');
+    background-image: url('../images/Nissan.jpeg');
     background-position:right;
     background-size: cover;
     color: #333;

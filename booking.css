@@ -34,6 +34,7 @@ a:hover {
     text-align: center;
     margin-bottom: 20px;
     color: #337ab7; 
+}
 
 .booking form {
     display: flex;
@@ -67,13 +68,14 @@ a:hover {
     background-color: #3e8e41;
 }
 
-/
+
 .booking {
     box-sizing: border-box; 
 }
 
 .booking form {
     gap: 10px;
+}
 
 .booking label,.booking select,.booking input[type="date"],.booking button[type="submit"] {
     font-size: 16px; 
