@@ -18,7 +18,7 @@ if (isset($_POST["signup"])) {
     $hash_password = password_hash($password, PASSWORD_DEFAULT);
     
     // Insert data into table
-    $user_insert = "INSERT INTO users (username, email, password ) VALUES (, '$username', '$email', '$hash_password')";
+    $user_insert = "INSERT INTO users (username, email, password ) VALUES (, '?', '?', '?')";
     
     // Execute the SQL query
     if ($dbConn->query($user_insert) === TRUE) {
