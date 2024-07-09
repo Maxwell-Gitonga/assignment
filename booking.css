@@ -9,11 +9,11 @@
 }
 
 header {
-    background-color: black;
+    background-color: skyblue;
     padding: 20px 0;
 }
 header:hover{
-    background-color:red;
+    background-color:gold;
 }
 
 a {
