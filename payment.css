@@ -5,6 +5,14 @@
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('./images/Charles\ Leclerc\ \(16\)\ _\ Sports\ car\ wallpaper….jpeg');
+    background-size:cover;
+    background-position:center;
+}
+body{
+    background-image: url('');
+    background-size:cover;
+    background-position:center;
 }
 
 header {

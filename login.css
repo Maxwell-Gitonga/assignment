@@ -7,11 +7,11 @@ body {
 }
 
 header {
-    background-color: black;
-    padding: 20px 0;
+    background-color: whitesmoke;
+    padding: 2mm;
 }
 header:hover{
-    background-color:red;
+    background-color:pink;
 }
 
 a {
