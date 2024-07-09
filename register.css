@@ -8,16 +8,16 @@
 }
 
 header {
-    background-color: whitesmoke;
+    background-color: rgb(204, 12, 162);
     padding: 10px;
 }
 header:hover{
-    background-color:skyblue;
+    background-color:orange;
 }
 
 a {
     text-decoration: none;
-    color: #5220c8;
+    color: #010003;
     padding: 10px;
     margin-right: 10px;
     border-radius: 5px;
