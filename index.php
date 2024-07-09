@@ -14,10 +14,10 @@
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="Contacts.html">Contact Us</a></li>
+                <li><a href="aboutus.php">About Us</a></li>
+                <li><a href="Contacts.php">Contact Us</a></li>
                 <li><a href="login.php">Login</a></li>
-                <li><a href="booking.html">Booking</a></li>
+                <li><a href="booking.php">Booking</a></li>
                 <li><a href="payment.php">Payment</a></li>
                 <li><a href="register.php">Register</a></li>
             </ul>

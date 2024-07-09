@@ -11,13 +11,13 @@
 <body>
 <header>
         
-    <a href="index.html">Home</a>
-    <a href="aboutus.html">About Us</a>
-    <a href="Contacts.html">Contact Us</a>
-    <a href="login.html">Login</a>
-    <a href="register.html">Register</a>
-    <a href="booking.html">Booking</a>
-    <a href="payment.html">Payment</a>
+    <a href="index.php">Home</a>
+    <a href="aboutus.php">About Us</a>
+    <a href="Contacts.php">Contact Us</a>
+    <a href="login.php">Login</a>
+    <a href="booking.php">Booking</a>
+    <a href="payment.php">Payment</a>
+    <a href="register.php">Register</a>
 
 </header>
     
