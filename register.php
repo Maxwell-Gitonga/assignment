@@ -16,8 +16,8 @@
     <a href="Contacts.html">Contact Us</a>
     <a href="login.html">Login</a>
     <a href="booking.html">Booking</a>
-    <a href="payment.html">Payment</a>
-    <a href="register.html">Register</a>
+    <a href="payment.php">Payment</a>
+    <a href="register.php">Register</a>
 </header>  
     <section class="register">
         <h1>Register</h1>
