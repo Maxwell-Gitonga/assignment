@@ -1,4 +1,4 @@
-<!-- index.html -->
+<!-- index.php -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,10 +16,10 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
                 <li><a href="Contacts.html">Contact Us</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li><a href="login.php">Login</a></li>
                 <li><a href="booking.html">Booking</a></li>
-                <li><a href="payment.html">Payment</a></li>
-                <li><a href="register.html">Register</a></li>
+                <li><a href="payment.php">Payment</a></li>
+                <li><a href="register.php">Register</a></li>
             </ul>
         </nav>
     </header>
