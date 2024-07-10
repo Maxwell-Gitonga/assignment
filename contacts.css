@@ -2,10 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #b01818;
-    background-image: url('./images/honda.jpg');
+    background-color: #f3e7e7;
+    background-image: url('');
     background-size: cover;
     background-position: center;
+}
+span{
+color: #fff;
+
 }
 
 a{

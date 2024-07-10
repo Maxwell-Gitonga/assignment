@@ -20,6 +20,7 @@
                 <li><a href="booking.php">Booking</a></li>
                 <li><a href="payment.php">Payment</a></li>
                 <li><a href="register.php">Register</a></li>
+                <li><a href="displaydata.php">Display</a></li>
             </ul>
         </nav>
     </header>

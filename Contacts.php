@@ -1,3 +1,33 @@
+<?php
+
+$id="id";
+$fullname="fullname";
+$email="email";
+$phone="phone";
+$address="address";
+
+require_once ("php/db_connection.php"); 
+if(isset($_POST['Send'])){
+    $fullname = mysqli_real_escape_string($conn, ($_POST["fullname"]));
+    $email = mysqli_real_escape_string($conn, ($_POST["email"]));
+    $phone = mysqli_real_escape_string($conn, ($_POST["phone"]));
+    $address = mysqli_real_escape_string($conn, ($_POST["address"]));
+    //$message = mysqli_real_escape_string($conn, ($_POST["message"]));
+}
+
+$sql = "INSERT IGNORE INTO registration (fullname,email,phone,address)
+VALUES('$fullname','$email','$phone','$address')";
+
+if ($conn->query($sql) === TRUE) {
+   // echo "New record created successfully";
+   //header("location:displaydata.php");
+  } else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+  }
+  
+  $conn->close();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,8 +50,36 @@
     <button>HELP</button>
     
     <h1>NEED SOME HELP</h1>
-    <P>To get assistance kindly contact us through email on carlovers@gamil.com or book an appointment through the same email so that all your issues are worked on. </P>
-    <p>We promise to get back to you as soon a s possible. </p>
-    <p>Thankyou.</p>
+    <main>
+            <section class="contact-us">
+                <h1>Contact Us</h1>
+                <p>We are here to assist you. Please fill out the form below and we will get back to you shortly.</p>
+                <form  method = "POST">
+        <h2 style="color:white">Send us a message</h2>
+        <div class="inputBox">
+            <input type="text" name="fullname" required="required">
+            <span style="color:white">Full Name</span>
+        </div>
+        <div class="inputBox">
+            <input type="text" name="email" required="required">
+            <span style="color:white">Email</span>
+        </div>
+        <div class="inputBox">
+            <input type="text" name="phone" required="required">
+            <span style="color:white">Phone</span>
+        </div>
+        <div class="inputBox">
+            <input type="text" name="address" required="required">
+            <span style="color:white">Address</span>
+        </div>
+        <div class="inputBox">
+            <input type="submit" name="Send"  value="Send">
+            
+        </div>
+
+    </form>
+
+            </section>
+        </main>
 </body>
 </html>
