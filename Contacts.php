@@ -45,6 +45,7 @@ if ($conn->query($sql) === TRUE) {
     <a href="booking.php">Booking</a>
     <a href="payment.php">Payment</a>
     <a href="register.php">Register</a>
+    <a href="displaydata.php">Display</a>
 
 
     <button>HELP</button>
