@@ -94,6 +94,5 @@
         <p>&copy; 2023 Car Booking Website</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
